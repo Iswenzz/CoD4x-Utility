@@ -50,8 +50,4 @@ FilmTweak Settings:
 
 All settings listed above are saved in profile.xml
 
-Bunifu UI is needed to compile! https://bunifuframework.com/
-
-Windows Download: http://213.32.18.205:1337/cod4x_utility/CoD4x_Utility_1.1.zip
-
 Credits: Iswenzz
