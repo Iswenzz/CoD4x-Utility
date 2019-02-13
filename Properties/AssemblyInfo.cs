@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("CoD4x Utility")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("https://iswenzz.com/")]
 [assembly: AssemblyProduct("CoD4x Utility")]
-[assembly: AssemblyCopyright("Iswenzz © 2018")]
+[assembly: AssemblyCopyright("Iswenzz © 2018-2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6af6aabf-3baf-412c-9bba-0ac6fcf17ca8")]
+[assembly: Guid("98bb7aaf-f1fc-493b-8673-080ab4aaabaa")]
 
 // Version information for an assembly consists of the following four values:
 //
