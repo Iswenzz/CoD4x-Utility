@@ -51,6 +51,8 @@ namespace Iswenzz.CoD4.Utility
             this.t6 = new System.Windows.Forms.Label();
             this.t7 = new System.Windows.Forms.Label();
             this.t8 = new System.Windows.Forms.Label();
+            this.b_cfg = new Iswenzz.UI.FlatButton();
+            this.SaveFile = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // b_toggle
@@ -154,8 +156,8 @@ namespace Iswenzz.CoD4.Utility
             this.b0_g.BorderRoundRectSize = new System.Drawing.Size(20, 20);
             this.b0_g.DrawFocusRectangle = false;
             this.b0_g.DrawSemitransparentThumb = false;
-            this.b0_g.ElapsedOuterColor = System.Drawing.Color.DarkGreen;
             this.b0_g.ElapsedInnerColor = System.Drawing.Color.Green;
+            this.b0_g.ElapsedOuterColor = System.Drawing.Color.DarkGreen;
             this.b0_g.LargeChange = ((uint)(5u));
             this.b0_g.Location = new System.Drawing.Point(445, 24);
             this.b0_g.Margin = new System.Windows.Forms.Padding(4);
@@ -238,8 +240,8 @@ namespace Iswenzz.CoD4.Utility
             this.b1_g.BorderRoundRectSize = new System.Drawing.Size(20, 20);
             this.b1_g.DrawFocusRectangle = false;
             this.b1_g.DrawSemitransparentThumb = false;
-            this.b1_g.ElapsedOuterColor = System.Drawing.Color.DarkGreen;
             this.b1_g.ElapsedInnerColor = System.Drawing.Color.Green;
+            this.b1_g.ElapsedOuterColor = System.Drawing.Color.DarkGreen;
             this.b1_g.LargeChange = ((uint)(5u));
             this.b1_g.Location = new System.Drawing.Point(444, 74);
             this.b1_g.Margin = new System.Windows.Forms.Padding(4);
@@ -561,12 +563,34 @@ namespace Iswenzz.CoD4.Utility
             this.t8.Text = "0";
             this.t8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // b_cfg
+            // 
+            this.b_cfg.BackColor = System.Drawing.Color.Teal;
+            this.b_cfg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.b_cfg.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.b_cfg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b_cfg.ForeColor = System.Drawing.Color.White;
+            this.b_cfg.HoverColor = System.Drawing.Color.Teal;
+            this.b_cfg.HoverColorLeave = System.Drawing.Color.Empty;
+            this.b_cfg.HoverColorText = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.b_cfg.HoverColorTextLeave = System.Drawing.Color.Empty;
+            this.b_cfg.Location = new System.Drawing.Point(257, 508);
+            this.b_cfg.Margin = new System.Windows.Forms.Padding(4);
+            this.b_cfg.Name = "b_cfg";
+            this.b_cfg.RoundedCorner = 7;
+            this.b_cfg.Size = new System.Drawing.Size(215, 52);
+            this.b_cfg.TabIndex = 67;
+            this.b_cfg.Text = "Save to .CFG";
+            this.b_cfg.UseVisualStyleBackColor = false;
+            this.b_cfg.Click += new System.EventHandler(this.b_cfg_Click);
+            // 
             // Vision
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(62)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Controls.Add(this.b_cfg);
             this.Controls.Add(this.t8);
             this.Controls.Add(this.t7);
             this.Controls.Add(this.t6);
@@ -624,5 +648,7 @@ namespace Iswenzz.CoD4.Utility
         private System.Windows.Forms.Label t6;
         private System.Windows.Forms.Label t7;
         private System.Windows.Forms.Label t8;
+        private UI.FlatButton b_cfg;
+        private System.Windows.Forms.SaveFileDialog SaveFile;
     }
 }

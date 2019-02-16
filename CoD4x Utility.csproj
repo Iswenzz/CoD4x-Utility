@@ -100,6 +100,7 @@
     <Compile Include="Utility\MemoryAPI.cs" />
     <Compile Include="Utility\Profiles\List.cs" />
     <Compile Include="Utility\Profiles\LoadXML.cs" />
+    <Compile Include="Utility\Profiles\SaveCFG.cs" />
     <Compile Include="Utility\Profiles\SaveXML.cs" />
     <Compile Include="Utility\Profiles\Variables.cs" />
     <Compile Include="Utility\Threads\CoD4.cs" />

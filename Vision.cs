@@ -122,6 +122,16 @@ namespace Iswenzz.CoD4.Utility
             }
         }
 
+        private void b_cfg_Click(object sender, EventArgs e)
+        {
+            SaveFile.Filter = "CFG|*.cfg";
+            SaveFile.Title = "Save CFG File";
+            DialogResult status = SaveFile.ShowDialog();
+
+            if (status == DialogResult.OK)
+                Cfg.Save(SaveFile.FileName);
+        }
+
         private void b_reset_Click(object sender, EventArgs e)
         {
             Profile.var_r_filmTweakLightTint[0] = 1.0f;

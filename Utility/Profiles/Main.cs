@@ -8,7 +8,7 @@ namespace Iswenzz.CoD4.Utility.Profiles
 {
     public partial class Profile
     {
-        public static float Version = 1.2f;
+        public static float Version = 1.21f;
         public static string Update_String = "";
         public static int Form1_X;
         public static int Form1_Y;

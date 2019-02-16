@@ -18,8 +18,8 @@
   <cg_gun_z Type="System.Single" Value="0" />
   <cg_fov Type="System.Single" Value="80" />
   <cg_fovScale Type="System.Single" Value="1" />
-  <r_filmUseTweaks Type="System.Boolean" Value="false" />
-  <r_filmTweakEnable Type="System.Boolean" Value="false" />
+  <r_filmUseTweaks Type="System.Boolean" Value="true" />
+  <r_filmTweakEnable Type="System.Boolean" Value="true" />
   <r_filmTweakBrightness Type="System.Single" Value="0" />
   <r_filmTweakContrast Type="System.Single" Value="1" />
   <r_filmTweakDesaturation Type="System.Single" Value="0" />

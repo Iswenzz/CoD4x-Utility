@@ -14,3 +14,19 @@ D:\Users\Wenzz\source\repos\CoD4\CoD4x Utility\obj\Debug\CoD4x Utility.csproj.Ge
 D:\Users\Wenzz\source\repos\CoD4\CoD4x Utility\obj\Debug\CoD4x Utility.csproj.CoreCompileInputs.cache
 D:\Users\Wenzz\source\repos\CoD4\CoD4x Utility\obj\Debug\CoD4x Utility.exe
 D:\Users\Wenzz\source\repos\CoD4\CoD4x Utility\obj\Debug\CoD4x Utility.pdb
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\bin\Debug\CoD4x Utility.exe.config
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\bin\Debug\CoD4x Utility.exe
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\bin\Debug\CoD4x Utility.pdb
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\CoD4x Utility.csprojAssemblyReference.cache
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\Iswenzz.CoD4.Utility.Graphics.resources
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\Iswenzz.CoD4.Utility.Panel.resources
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\Iswenzz.CoD4.Utility.Player.resources
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\Iswenzz.CoD4.Utility.PopUp.resources
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\Iswenzz.CoD4.Properties.Resources.resources
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\Iswenzz.CoD4.Utility.Viewmodel.resources
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\Iswenzz.CoD4.Utility.Vision.resources
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\Iswenzz.CoD4.Utility.Wait.resources
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\CoD4x Utility.csproj.GenerateResource.cache
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\CoD4x Utility.csproj.CoreCompileInputs.cache
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\CoD4x Utility.exe
+D:\Users\Wenzz\source\repos\CoD4\CoD4x-Utility\obj\Debug\CoD4x Utility.pdb
