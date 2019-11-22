@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Iswenzz.CoD4.Utility.Profiles
+﻿namespace Iswenzz.CoD4.Utility.Profiles
 {
     /// <remarks>
     /// Add CoD4 commands here, with the right name and var_ at the beginning and a default value.

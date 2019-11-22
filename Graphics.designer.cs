@@ -35,16 +35,16 @@ namespace Iswenzz.CoD4.Utility
             this.bunifuCustomLabel3 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel2 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel1 = new System.Windows.Forms.Label();
-            this.bunifuFlatButton5 = new Iswenzz.UI.FlatButton();
-            this.b7 = new Iswenzz.UI.FlatButton();
-            this.b5 = new Iswenzz.UI.FlatButton();
-            this.b1 = new Iswenzz.UI.FlatButton();
-            this.b2 = new Iswenzz.UI.FlatButton();
-            this.b6 = new Iswenzz.UI.FlatButton();
-            this.b4 = new Iswenzz.UI.FlatButton();
-            this.b0 = new Iswenzz.UI.FlatButton();
+            this.bunifuFlatButton5 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b7 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b5 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b1 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b2 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b6 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b4 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b0 = new Iswenzz.UI.Controls.Buttons.FlatButton();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.b3 = new Iswenzz.UI.Slider();
+            this.b3 = new Iswenzz.UI.Controls.Buttons.Slider();
             this.SuspendLayout();
             // 
             // bunifuCustomLabel8
@@ -183,7 +183,6 @@ namespace Iswenzz.CoD4.Utility
             this.b7.TabIndex = 31;
             this.b7.Text = "Normal";
             this.b7.UseVisualStyleBackColor = false;
-            this.b7.Load += new System.EventHandler(this.b7_Load);
             this.b7.Click += new System.EventHandler(this.b7_Click);
             // 
             // b5
@@ -205,7 +204,6 @@ namespace Iswenzz.CoD4.Utility
             this.b5.TabIndex = 30;
             this.b5.Text = "AA Shadow";
             this.b5.UseVisualStyleBackColor = false;
-            this.b5.Load += new System.EventHandler(this.b5_Load);
             this.b5.Click += new System.EventHandler(this.b5_Click);
             // 
             // b1
@@ -227,7 +225,6 @@ namespace Iswenzz.CoD4.Utility
             this.b1.TabIndex = 29;
             this.b1.Text = "Specular";
             this.b1.UseVisualStyleBackColor = false;
-            this.b1.Load += new System.EventHandler(this.b1_Load);
             this.b1.Click += new System.EventHandler(this.b1_Click);
             // 
             // b2
@@ -249,7 +246,6 @@ namespace Iswenzz.CoD4.Utility
             this.b2.TabIndex = 28;
             this.b2.Text = "Fullbright";
             this.b2.UseVisualStyleBackColor = false;
-            this.b2.Load += new System.EventHandler(this.b2_Load);
             this.b2.Click += new System.EventHandler(this.b2_Click);
             // 
             // b6
@@ -271,7 +267,6 @@ namespace Iswenzz.CoD4.Utility
             this.b6.TabIndex = 27;
             this.b6.Text = "Detail";
             this.b6.UseVisualStyleBackColor = false;
-            this.b6.Load += new System.EventHandler(this.b6_Load);
             this.b6.Click += new System.EventHandler(this.b6_Click);
             // 
             // b4
@@ -293,7 +288,6 @@ namespace Iswenzz.CoD4.Utility
             this.b4.TabIndex = 26;
             this.b4.Text = "Decals";
             this.b4.UseVisualStyleBackColor = false;
-            this.b4.Load += new System.EventHandler(this.b4_Load);
             this.b4.Click += new System.EventHandler(this.b4_Click);
             // 
             // b0
@@ -315,7 +309,6 @@ namespace Iswenzz.CoD4.Utility
             this.b0.TabIndex = 25;
             this.b0.Text = "Effects";
             this.b0.UseVisualStyleBackColor = false;
-            this.b0.Load += new System.EventHandler(this.b0_Load);
             this.b0.Click += new System.EventHandler(this.b0_Click);
             // 
             // b3
@@ -344,7 +337,6 @@ namespace Iswenzz.CoD4.Utility
             this.b3.ThumbSize = 22;
             this.b3.Value = 1;
             this.b3.ValueChanged += new System.EventHandler(this.b3_ValueChanged);
-            this.b3.Load += new System.EventHandler(this.b3_Load);
             // 
             // Graphics
             // 
@@ -385,15 +377,15 @@ namespace Iswenzz.CoD4.Utility
         private System.Windows.Forms.Label bunifuCustomLabel3;
         private System.Windows.Forms.Label bunifuCustomLabel2;
         private System.Windows.Forms.Label bunifuCustomLabel1;
-        private Iswenzz.UI.FlatButton bunifuFlatButton5;
-        private Iswenzz.UI.FlatButton b7;
-        private Iswenzz.UI.FlatButton b5;
-        private Iswenzz.UI.FlatButton b1;
-        private Iswenzz.UI.FlatButton b2;
-        private Iswenzz.UI.FlatButton b6;
-        private Iswenzz.UI.FlatButton b4;
-        private Iswenzz.UI.FlatButton b0;
+        private Iswenzz.UI.Controls.Buttons.FlatButton bunifuFlatButton5;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b7;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b5;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b1;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b2;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b6;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b4;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b0;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private Iswenzz.UI.Slider b3;
+        private Iswenzz.UI.Controls.Buttons.Slider b3;
     }
 }

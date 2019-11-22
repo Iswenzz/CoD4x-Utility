@@ -11,7 +11,7 @@ namespace Iswenzz.CoD4.Utility.Command
         /// </summary>
         /// <param name="array">address + offset</param>
         /// <param name="var">result</param>
-        public static void command_rw(uint[] array, bool var)
+        public static void ReadWrite(uint[] array, bool var)
         {
             Process process = Process.GetProcessesByName("iw3mp").ToList().FirstOrDefault();
 
@@ -36,7 +36,7 @@ namespace Iswenzz.CoD4.Utility.Command
         /// </summary>
         /// <param name="array">address + offset</param>
         /// <param name="var">result</param>
-        public static void command_rw(uint[] array, float var)
+        public static void ReadWrite(uint[] array, float var)
         {
             Process process = Process.GetProcessesByName("iw3mp").ToList().FirstOrDefault();
 
@@ -61,7 +61,7 @@ namespace Iswenzz.CoD4.Utility.Command
         /// </summary>
         /// <param name="array">address + offset</param>
         /// <param name="var">result</param>
-        public static void command_rw(uint[] array, int var)
+        public static void ReadWrite(uint[] array, int var)
         {
             Process process = Process.GetProcessesByName("iw3mp").ToList().FirstOrDefault();
 

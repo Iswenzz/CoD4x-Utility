@@ -45,7 +45,7 @@
       <HintPath>..\packages\Costura.Fody.3.3.2\lib\net40\Costura.dll</HintPath>
     </Reference>
     <Reference Include="Iswenzz.UI">
-      <HintPath>..\..\VS\Extra Control\bin\Debug\Iswenzz.UI.dll</HintPath>
+      <HintPath>Iswenzz.UI.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

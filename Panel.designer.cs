@@ -27,15 +27,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Panel));
             this.panel3 = new System.Windows.Forms.Panel();
-            this.b_about = new Iswenzz.UI.FlatButton();
-            this.b3 = new Iswenzz.UI.FlatButton();
-            this.b2 = new Iswenzz.UI.FlatButton();
-            this.b1 = new Iswenzz.UI.FlatButton();
-            this.b0 = new Iswenzz.UI.FlatButton();
+            this.b_about = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b3 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b2 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b1 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b0 = new Iswenzz.UI.Controls.Buttons.FlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel1 = new System.Windows.Forms.Label();
-            this.bunifuFlatButton2 = new Iswenzz.UI.FlatButton();
-            this.bunifuFlatButton1 = new Iswenzz.UI.FlatButton();
+            this.bunifuFlatButton2 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.bunifuFlatButton1 = new Iswenzz.UI.Controls.Buttons.FlatButton();
             this.ViewmodelControl = new Iswenzz.CoD4.Utility.Viewmodel();
             this.WaitControl = new Iswenzz.CoD4.Utility.Wait();
             this.VisionControl = new Iswenzz.CoD4.Utility.Vision();
@@ -309,14 +309,14 @@
         #endregion
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
-        private Iswenzz.UI.FlatButton bunifuFlatButton2;
-        private Iswenzz.UI.FlatButton bunifuFlatButton1;
+        private Iswenzz.UI.Controls.Buttons.FlatButton bunifuFlatButton2;
+        private Iswenzz.UI.Controls.Buttons.FlatButton bunifuFlatButton1;
         private System.Windows.Forms.Label bunifuCustomLabel1;
-        private Iswenzz.UI.FlatButton b0;
-        private Iswenzz.UI.FlatButton b1;
-        private Iswenzz.UI.FlatButton b3;
-        private Iswenzz.UI.FlatButton b2;
-        private Iswenzz.UI.FlatButton b_about;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b0;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b1;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b3;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b2;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b_about;
         private Player PlayerControl;
         private Graphics GraphicsControl;
         private Vision VisionControl;

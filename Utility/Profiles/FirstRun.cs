@@ -1,6 +1,4 @@
-﻿using System;
-using System.Reflection;
-using System.Windows.Forms;
+﻿using System.Reflection;
 
 using Iswenzz.CoD4.Utility.Command;
 
@@ -24,31 +22,31 @@ namespace Iswenzz.CoD4.Utility.Profiles
                 {
                     case true when obj_v.GetType() == typeof(bool):
                         bool b = (bool)obj_v;
-                        b.command_rr((uint[])obj_a);
+                        b.ReadRead((uint[])obj_a);
                         break;
                     case true when obj_v.GetType() == typeof(float):
                         float f = (float)obj_v;
-                        f.command_rr((uint[])obj_a);
+                        f.ReadRead((uint[])obj_a);
                         break;
                     case true when obj_v.GetType() == typeof(int):
                         int i = (int)obj_v;
-                        i.command_rr((uint[])obj_a);
+                        i.ReadRead((uint[])obj_a);
                         break;
                     case true when obj_v.GetType() == typeof(bool[]):
                         bool[] ba = (bool[])obj_v;
-                        ba.command_vector_rr((uint[])obj_a);
+                        ba.VectorReadRead((uint[])obj_a);
                         break;
                     case true when obj_v.GetType() == typeof(float[]):
                         float[] fa = (float[])obj_v;
-                        fa.command_vector_rr((uint[])obj_a);
+                        fa.VectorReadRead((uint[])obj_a);
                         break;
                     case true when obj_v.GetType() == typeof(int[]):
                         int[] ia = (int[])obj_v;
-                        ia.command_vector_rr((uint[])obj_a);
+                        ia.VectorReadRead((uint[])obj_a);
                         break;
                 }
             }
-            isFirstTime = false;
+            IsFirstTime = false;
             Xml.Save();
             Start();
             //Application.Restart();

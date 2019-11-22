@@ -10,9 +10,8 @@ namespace Iswenzz.CoD4.Utility.Threads
         /// </summary>
         public async static void Start()
         {
-            await Task.Delay(500); // HandleCreated
-            await Task.Run(new Action(UpdateSoftware.Init));
-            await Task.Run(new Action(CoD4.Init));
+            await Task.Run(() => UpdateSoftware.Init());
+            await Task.Run(() => CoD4.Init());
         }
     }
 }

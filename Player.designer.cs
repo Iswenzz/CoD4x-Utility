@@ -30,13 +30,13 @@ namespace Iswenzz.CoD4.Utility
             this.bunifuCustomLabel6 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel5 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel2 = new System.Windows.Forms.Label();
-            this.b3 = new Iswenzz.UI.FlatButton();
-            this.b1 = new Iswenzz.UI.FlatButton();
-            this.b2 = new Iswenzz.UI.FlatButton();
-            this.b0 = new Iswenzz.UI.FlatButton();
+            this.b3 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b1 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b2 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b0 = new Iswenzz.UI.Controls.Buttons.FlatButton();
             this.bunifuCustomLabel1 = new System.Windows.Forms.Label();
             this.bunifuCustomLabel3 = new System.Windows.Forms.Label();
-            this.b4 = new Iswenzz.UI.FlatButton();
+            this.b4 = new Iswenzz.UI.Controls.Buttons.FlatButton();
             this.SuspendLayout();
             // 
             // bunifuCustomLabel6
@@ -92,7 +92,6 @@ namespace Iswenzz.CoD4.Utility
             this.b3.TabIndex = 32;
             this.b3.Text = "Stock HUD";
             this.b3.UseVisualStyleBackColor = false;
-            this.b3.Load += new System.EventHandler(this.b3_Load);
             this.b3.Click += new System.EventHandler(this.b3_Click);
             // 
             // b1
@@ -112,7 +111,6 @@ namespace Iswenzz.CoD4.Utility
             this.b1.TabIndex = 29;
             this.b1.Text = "Draw 2D";
             this.b1.UseVisualStyleBackColor = false;
-            this.b1.Load += new System.EventHandler(this.b1_Load);
             this.b1.Click += new System.EventHandler(this.b1_Click);
             // 
             // b2
@@ -132,7 +130,6 @@ namespace Iswenzz.CoD4.Utility
             this.b2.TabIndex = 28;
             this.b2.Text = "Laser";
             this.b2.UseVisualStyleBackColor = false;
-            this.b2.Load += new System.EventHandler(this.b2_Load);
             this.b2.Click += new System.EventHandler(this.b2_Click);
             // 
             // b0
@@ -152,7 +149,6 @@ namespace Iswenzz.CoD4.Utility
             this.b0.TabIndex = 25;
             this.b0.Text = "Draw FPS";
             this.b0.UseVisualStyleBackColor = false;
-            this.b0.Load += new System.EventHandler(this.b0_Load);
             this.b0.Click += new System.EventHandler(this.b0_Click);
             // 
             // bunifuCustomLabel1
@@ -196,7 +192,6 @@ namespace Iswenzz.CoD4.Utility
             this.b4.TabIndex = 39;
             this.b4.Text = "Camera Bob";
             this.b4.UseVisualStyleBackColor = false;
-            this.b4.Load += new System.EventHandler(this.b4_Load);
             this.b4.Click += new System.EventHandler(this.b4_Click);
             // 
             // Player
@@ -226,12 +221,12 @@ namespace Iswenzz.CoD4.Utility
         private System.Windows.Forms.Label bunifuCustomLabel6;
         private System.Windows.Forms.Label bunifuCustomLabel5;
         private System.Windows.Forms.Label bunifuCustomLabel2;
-        private Iswenzz.UI.FlatButton b3;
-        private Iswenzz.UI.FlatButton b1;
-        private Iswenzz.UI.FlatButton b2;
-        private Iswenzz.UI.FlatButton b0;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b3;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b1;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b2;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b0;
         private System.Windows.Forms.Label bunifuCustomLabel1;
         private System.Windows.Forms.Label bunifuCustomLabel3;
-        private Iswenzz.UI.FlatButton b4;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b4;
     }
 }

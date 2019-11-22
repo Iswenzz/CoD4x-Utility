@@ -1,7 +1,6 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 
-using Iswenzz.UI;
+using Iswenzz.UI.Controls.Buttons;
 
 namespace Iswenzz.CoD4.Utility
 {

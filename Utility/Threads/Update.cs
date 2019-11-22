@@ -21,15 +21,15 @@ namespace Iswenzz.CoD4.Utility.Threads
                 // Fullbright State
                 if (Profile.var_r_fullbright)
                 {
-                    CMD.command_w(Profile.post_process, 1);
-                    CMD.command_w(Profile.lighting, 4);
-                    CMD.command_w(Profile.fx, 4);
+                    CMD.Write(Profile.post_process, 1);
+                    CMD.Write(Profile.lighting, 4);
+                    CMD.Write(Profile.fx, 4);
                 }
                 else
                 {
-                    CMD.command_w(Profile.post_process, 3);
-                    CMD.command_w(Profile.lighting, 7);
-                    CMD.command_w(Profile.fx, 5);
+                    CMD.Write(Profile.post_process, 3);
+                    CMD.Write(Profile.lighting, 7);
+                    CMD.Write(Profile.fx, 5);
                 }
 
                 // Allow Vision
@@ -49,22 +49,22 @@ namespace Iswenzz.CoD4.Utility.Threads
                     switch (true)
                     {
                         case true when obj_v.GetType() == typeof(bool):
-                            CMD.command_rw((uint[])obj_a, (bool)obj_v);
+                            CMD.ReadWrite((uint[])obj_a, (bool)obj_v);
                             break;
                         case true when obj_v.GetType() == typeof(float):
-                            CMD.command_rw((uint[])obj_a, (float)obj_v);
+                            CMD.ReadWrite((uint[])obj_a, (float)obj_v);
                             break;
                         case true when obj_v.GetType() == typeof(int):
-                            CMD.command_rw((uint[])obj_a, (int)obj_v);
+                            CMD.ReadWrite((uint[])obj_a, (int)obj_v);
                             break;
                         case true when obj_v.GetType() == typeof(bool[]):
-                            CMD.command_vector_rw((uint[])obj_a, (bool[])obj_v);
+                            CMD.VectorReadWrite((uint[])obj_a, (bool[])obj_v);
                             break;
                         case true when obj_v.GetType() == typeof(float[]):
-                            CMD.command_vector_rw((uint[])obj_a, (float[])obj_v);
+                            CMD.VectorReadWrite((uint[])obj_a, (float[])obj_v);
                             break;
                         case true when obj_v.GetType() == typeof(int[]):
-                            CMD.command_vector_rw((uint[])obj_a, (int[])obj_v);
+                            CMD.VectorReadWrite((uint[])obj_a, (int[])obj_v);
                             break;
                     }
                 }

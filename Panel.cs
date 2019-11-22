@@ -31,9 +31,9 @@ namespace Iswenzz.CoD4.Utility
         /// </summary>
         private void b_about_Click(object sender, EventArgs e)
         {
-            if (!Profile.isFormAbout)
+            if (!Profile.IsFormAbout)
             {
-                Profile.isFormAbout = true;
+                Profile.IsFormAbout = true;
                 Profile.Form1_X = Location.X;
                 Profile.Form1_Y = Location.Y;
                 PopUp about = new PopUp();
@@ -47,7 +47,7 @@ namespace Iswenzz.CoD4.Utility
         /// </summary>
         private void b0_Click(object sender, EventArgs e)
         {
-            if(!Profile.isCoD4Running) return;
+            if(!Profile.IsCoD4Running) return;
             Extension.MainButton(b0, b1, b2, b3);
             HidePages(false);
             PlayerControl.Visible = true;
@@ -58,7 +58,7 @@ namespace Iswenzz.CoD4.Utility
         /// </summary>
         private void b1_Click_1(object sender, EventArgs e)
         {
-            if (!Profile.isCoD4Running) return;
+            if (!Profile.IsCoD4Running) return;
             Extension.MainButton(b1, b0, b2, b3);
             HidePages(false);
             GraphicsControl.Visible = true;
@@ -69,7 +69,7 @@ namespace Iswenzz.CoD4.Utility
         /// </summary>
         private void b2_Click(object sender, EventArgs e)
         {
-            if (!Profile.isCoD4Running) return;
+            if (!Profile.IsCoD4Running) return;
             Extension.MainButton(b2, b0, b1, b3);
             HidePages(false);
             ViewmodelControl.Visible = true;
@@ -80,7 +80,7 @@ namespace Iswenzz.CoD4.Utility
         /// </summary>
         private void b3_Click(object sender, EventArgs e)
         {
-            if (!Profile.isCoD4Running) return;
+            if (!Profile.IsCoD4Running) return;
             Extension.MainButton(b3, b0, b1, b2);
             HidePages(false);
             VisionControl.Visible = true;

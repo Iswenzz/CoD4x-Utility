@@ -8,17 +8,15 @@ namespace Iswenzz.CoD4.Utility.Profiles
 {
     public partial class Profile
     {
-        public static float Version = 1.21f;
-        public static string Update_String = "";
-        public static int Form1_X;
-        public static int Form1_Y;
-        public static bool isFormAbout = false;
-        public static bool isCoD4Running = false;
-        public static bool isFirstTime;
+        public static float Version { get; set; } = 1.22f;
+        public static string UpdateString { get; set; } = "";
+        public static int Form1_X { get; set; }
+        public static int Form1_Y { get; set; }
+        public static bool IsFormAbout { get; set; }
+        public static bool IsCoD4Running { get; set; }
+        public static bool IsFirstTime { get; set; }
 
-        public static Task Inject;
-        public static CancellationTokenSource TokenSource;
-        public static CancellationToken Token;
+        public static CancellationTokenSource TokenSource { get; set; }
 
         /// <summary>
         /// Load XML Profile and start the injection task.
@@ -27,13 +25,12 @@ namespace Iswenzz.CoD4.Utility.Profiles
         {
             Xml.Load();
 
-            if (isFirstTime)
+            if (IsFirstTime)
                 FirstLoad();
             else
             {
                 TokenSource = new CancellationTokenSource();
-                Token = TokenSource.Token;
-                Inject = Task.Run(new Action(() => Update.Init(Token)), Token);
+                Task.Run(new Action(() => Update.Init(TokenSource.Token)), TokenSource.Token);
             }
         }
     }

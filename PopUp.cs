@@ -11,15 +11,15 @@ namespace Iswenzz.CoD4.Utility
         public PopUp()
         {
             InitializeComponent();
-            t_version.Text = Profile.Version.ToString("F1");
+            t_version.Text = Profile.Version.ToString();
         }
 
-        public void t_update_TextChanged(object sender, EventArgs e) => t_update.Text = Profile.Update_String;
+        public void t_update_TextChanged(object sender, EventArgs e) => t_update.Text = Profile.UpdateString;
         private void PopUp_Load(object sender, EventArgs e) => SetDesktopLocation(Profile.Form1_X + 410, Profile.Form1_Y + 190);
 
         private void bunifuFlatButton4_Click(object sender, EventArgs e)
         {
-            Profile.isFormAbout = false;
+            Profile.IsFormAbout = false;
             Hide();
         }
 

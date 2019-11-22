@@ -26,10 +26,10 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.bunifuFlatButton4 = new Iswenzz.UI.FlatButton();
+            this.bunifuFlatButton4 = new Iswenzz.UI.Controls.Buttons.FlatButton();
             this.bunifuCustomLabel1 = new System.Windows.Forms.Label();
-            this.bunifuFlatButton2 = new Iswenzz.UI.FlatButton();
-            this.bunifuFlatButton1 = new Iswenzz.UI.FlatButton();
+            this.bunifuFlatButton2 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.bunifuFlatButton1 = new Iswenzz.UI.Controls.Buttons.FlatButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -235,9 +235,9 @@
         #endregion
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label bunifuCustomLabel1;
-        private Iswenzz.UI.FlatButton bunifuFlatButton2;
-        private Iswenzz.UI.FlatButton bunifuFlatButton1;
-        private Iswenzz.UI.FlatButton bunifuFlatButton4;
+        private Iswenzz.UI.Controls.Buttons.FlatButton bunifuFlatButton2;
+        private Iswenzz.UI.Controls.Buttons.FlatButton bunifuFlatButton1;
+        private Iswenzz.UI.Controls.Buttons.FlatButton bunifuFlatButton4;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

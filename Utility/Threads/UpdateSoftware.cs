@@ -19,15 +19,15 @@ namespace Iswenzz.CoD4.Utility.Threads
             float ver = 1.0f;
             try
             {
-                WebClient client = new WebClient();
-                ver = float.Parse(client.DownloadString("http://213.32.18.205:1337/cod4x_utility/version.txt"));
+                using (WebClient client = new WebClient())
+                    ver = float.Parse(client.DownloadString("http://213.32.18.205:1337/cod4x_utility/version.txt"));
             } catch { }
             await Task.Delay(1000);
 
             if (Profile.Version != ver)
             {
-                Profile.isFormAbout = false;
-                Profile.Update_String = "Update available on:";
+                Profile.IsFormAbout = false;
+                Profile.UpdateString = "Update available on:";
                 (Application.OpenForms[0] as Panel).ShowAbout();
             }
         }

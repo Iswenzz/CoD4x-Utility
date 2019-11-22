@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
-using System.Windows.Forms;
 using System.Xml.Linq;
 
 namespace Iswenzz.CoD4.Utility.Profiles
@@ -16,7 +15,7 @@ namespace Iswenzz.CoD4.Utility.Profiles
             XDocument xml;
             if (!File.Exists("profile.xml"))
             {
-                Profile.isFirstTime = true;
+                Profile.IsFirstTime = true;
                 xml = new XDocument();
                 xml.Add(new XElement("Utility"));
                 xml.Save("profile.xml");
@@ -24,7 +23,7 @@ namespace Iswenzz.CoD4.Utility.Profiles
             }
             else
             {
-                Profile.isFirstTime = false;
+                Profile.IsFirstTime = false;
                 xml = XDocument.Load("profile.xml");
             }
 

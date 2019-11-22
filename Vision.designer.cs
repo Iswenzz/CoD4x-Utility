@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+
 namespace Iswenzz.CoD4.Utility
 {
     partial class Vision
@@ -26,22 +27,22 @@ namespace Iswenzz.CoD4.Utility
         /// </summary>
         private void InitializeComponent()
         {
-            this.b_toggle = new Iswenzz.UI.FlatButton();
-            this.b0 = new Iswenzz.UI.FlatButton();
-            this.bunifuFlatButton4 = new Iswenzz.UI.FlatButton();
-            this.b0_r = new Iswenzz.UI.Slider();
-            this.b0_g = new Iswenzz.UI.Slider();
-            this.b0_b = new Iswenzz.UI.Slider();
-            this.b1_b = new Iswenzz.UI.Slider();
-            this.b1_g = new Iswenzz.UI.Slider();
-            this.b1_r = new Iswenzz.UI.Slider();
-            this.bunifuFlatButton6 = new Iswenzz.UI.FlatButton();
-            this.bunifuFlatButton7 = new Iswenzz.UI.FlatButton();
-            this.bunifuFlatButton8 = new Iswenzz.UI.FlatButton();
-            this.b6 = new Iswenzz.UI.Slider();
-            this.b7 = new Iswenzz.UI.Slider();
-            this.b8 = new Iswenzz.UI.Slider();
-            this.b_reset = new Iswenzz.UI.FlatButton();
+            this.b_toggle = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b0 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.bunifuFlatButton4 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b0_r = new Iswenzz.UI.Controls.Buttons.Slider();
+            this.b0_g = new Iswenzz.UI.Controls.Buttons.Slider();
+            this.b0_b = new Iswenzz.UI.Controls.Buttons.Slider();
+            this.b1_b = new Iswenzz.UI.Controls.Buttons.Slider();
+            this.b1_g = new Iswenzz.UI.Controls.Buttons.Slider();
+            this.b1_r = new Iswenzz.UI.Controls.Buttons.Slider();
+            this.bunifuFlatButton6 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.bunifuFlatButton7 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.bunifuFlatButton8 = new Iswenzz.UI.Controls.Buttons.FlatButton();
+            this.b6 = new Iswenzz.UI.Controls.Buttons.Slider();
+            this.b7 = new Iswenzz.UI.Controls.Buttons.Slider();
+            this.b8 = new Iswenzz.UI.Controls.Buttons.Slider();
+            this.b_reset = new Iswenzz.UI.Controls.Buttons.FlatButton();
             this.t0_r = new System.Windows.Forms.Label();
             this.t0_g = new System.Windows.Forms.Label();
             this.t0_b = new System.Windows.Forms.Label();
@@ -51,7 +52,7 @@ namespace Iswenzz.CoD4.Utility
             this.t6 = new System.Windows.Forms.Label();
             this.t7 = new System.Windows.Forms.Label();
             this.t8 = new System.Windows.Forms.Label();
-            this.b_cfg = new Iswenzz.UI.FlatButton();
+            this.b_cfg = new Iswenzz.UI.Controls.Buttons.FlatButton();
             this.SaveFile = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
@@ -74,7 +75,6 @@ namespace Iswenzz.CoD4.Utility
             this.b_toggle.TabIndex = 26;
             this.b_toggle.Text = "Enable";
             this.b_toggle.UseVisualStyleBackColor = false;
-            this.b_toggle.Load += new System.EventHandler(this.b_toggle_Load);
             this.b_toggle.Click += new System.EventHandler(this.b_toggle_Click);
             // 
             // b0
@@ -145,7 +145,6 @@ namespace Iswenzz.CoD4.Utility
             this.b0_r.ThumbSize = 22;
             this.b0_r.Value = 1000;
             this.b0_r.ValueChanged += new System.EventHandler(this.b0_r_ValueChanged);
-            this.b0_r.Load += new System.EventHandler(this.b0_r_Load);
             // 
             // b0_g
             // 
@@ -173,7 +172,6 @@ namespace Iswenzz.CoD4.Utility
             this.b0_g.ThumbSize = 22;
             this.b0_g.Value = 1000;
             this.b0_g.ValueChanged += new System.EventHandler(this.b0_g_ValueChanged);
-            this.b0_g.Load += new System.EventHandler(this.b0_g_Load);
             // 
             // b0_b
             // 
@@ -201,7 +199,6 @@ namespace Iswenzz.CoD4.Utility
             this.b0_b.ThumbSize = 22;
             this.b0_b.Value = 1000;
             this.b0_b.ValueChanged += new System.EventHandler(this.b0_b_ValueChanged);
-            this.b0_b.Load += new System.EventHandler(this.b0_b_Load);
             // 
             // b1_b
             // 
@@ -229,7 +226,6 @@ namespace Iswenzz.CoD4.Utility
             this.b1_b.ThumbSize = 22;
             this.b1_b.Value = 1000;
             this.b1_b.ValueChanged += new System.EventHandler(this.b1_b_ValueChanged);
-            this.b1_b.Load += new System.EventHandler(this.b1_b_Load);
             // 
             // b1_g
             // 
@@ -257,7 +253,6 @@ namespace Iswenzz.CoD4.Utility
             this.b1_g.ThumbSize = 22;
             this.b1_g.Value = 1000;
             this.b1_g.ValueChanged += new System.EventHandler(this.b1_g_ValueChanged);
-            this.b1_g.Load += new System.EventHandler(this.b1_g_Load);
             // 
             // b1_r
             // 
@@ -285,7 +280,6 @@ namespace Iswenzz.CoD4.Utility
             this.b1_r.ThumbSize = 22;
             this.b1_r.Value = 1000;
             this.b1_r.ValueChanged += new System.EventHandler(this.b1_r_ValueChanged);
-            this.b1_r.Load += new System.EventHandler(this.b1_r_Load);
             // 
             // bunifuFlatButton6
             // 
@@ -376,7 +370,6 @@ namespace Iswenzz.CoD4.Utility
             this.b6.ThumbSize = 22;
             this.b6.Value = 1000;
             this.b6.ValueChanged += new System.EventHandler(this.b6_ValueChanged);
-            this.b6.Load += new System.EventHandler(this.b6_Load);
             // 
             // b7
             // 
@@ -404,7 +397,6 @@ namespace Iswenzz.CoD4.Utility
             this.b7.ThumbSize = 22;
             this.b7.Value = 1000;
             this.b7.ValueChanged += new System.EventHandler(this.b7_ValueChanged);
-            this.b7.Load += new System.EventHandler(this.b7_Load);
             // 
             // b8
             // 
@@ -432,7 +424,6 @@ namespace Iswenzz.CoD4.Utility
             this.b8.ThumbSize = 22;
             this.b8.Value = 1000;
             this.b8.ValueChanged += new System.EventHandler(this.b8_ValueChanged);
-            this.b8.Load += new System.EventHandler(this.b8_Load);
             // 
             // b_reset
             // 
@@ -623,22 +614,22 @@ namespace Iswenzz.CoD4.Utility
 
         }
         #endregion
-        private Iswenzz.UI.FlatButton b_toggle;
-        private Iswenzz.UI.FlatButton b0;
-        private Iswenzz.UI.FlatButton bunifuFlatButton4;
-        private Iswenzz.UI.Slider b0_r;
-        private Iswenzz.UI.Slider b0_g;
-        private Iswenzz.UI.Slider b0_b;
-        private Iswenzz.UI.Slider b1_b;
-        private Iswenzz.UI.Slider b1_g;
-        private Iswenzz.UI.Slider b1_r;
-        private Iswenzz.UI.FlatButton bunifuFlatButton6;
-        private Iswenzz.UI.FlatButton bunifuFlatButton7;
-        private Iswenzz.UI.FlatButton bunifuFlatButton8;
-        private Iswenzz.UI.Slider b6;
-        private Iswenzz.UI.Slider b7;
-        private Iswenzz.UI.Slider b8;
-        private Iswenzz.UI.FlatButton b_reset;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b_toggle;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b0;
+        private Iswenzz.UI.Controls.Buttons.FlatButton bunifuFlatButton4;
+        private Iswenzz.UI.Controls.Buttons.Slider b0_r;
+        private Iswenzz.UI.Controls.Buttons.Slider b0_g;
+        private Iswenzz.UI.Controls.Buttons.Slider b0_b;
+        private Iswenzz.UI.Controls.Buttons.Slider b1_b;
+        private Iswenzz.UI.Controls.Buttons.Slider b1_g;
+        private Iswenzz.UI.Controls.Buttons.Slider b1_r;
+        private Iswenzz.UI.Controls.Buttons.FlatButton bunifuFlatButton6;
+        private Iswenzz.UI.Controls.Buttons.FlatButton bunifuFlatButton7;
+        private Iswenzz.UI.Controls.Buttons.FlatButton bunifuFlatButton8;
+        private Iswenzz.UI.Controls.Buttons.Slider b6;
+        private Iswenzz.UI.Controls.Buttons.Slider b7;
+        private Iswenzz.UI.Controls.Buttons.Slider b8;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b_reset;
         private System.Windows.Forms.Label t0_r;
         private System.Windows.Forms.Label t0_g;
         private System.Windows.Forms.Label t0_b;
@@ -648,7 +639,7 @@ namespace Iswenzz.CoD4.Utility
         private System.Windows.Forms.Label t6;
         private System.Windows.Forms.Label t7;
         private System.Windows.Forms.Label t8;
-        private UI.FlatButton b_cfg;
+        private Iswenzz.UI.Controls.Buttons.FlatButton b_cfg;
         private System.Windows.Forms.SaveFileDialog SaveFile;
     }
 }
