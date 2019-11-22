@@ -1,0 +1,14 @@
+version: 1.0.0.{build}
+image: Visual Studio 2019
+
+configuration: Release
+platform: AnyCPU
+
+before_build:
+- cmd: >-
+    nuget restore "CoD4x Utility.csproj" -PackagesDirectory ../packages
+    
+    msbuild.exe "CoD4x Utility.csproj"
+
+build:
+  verbosity: minimal
