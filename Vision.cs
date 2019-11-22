@@ -98,7 +98,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.ReadWrite(Profile.r_filmUseTweaks, Profile.var_r_filmUseTweaks);
                 b_toggle.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_r_filmTweakEnable = false;

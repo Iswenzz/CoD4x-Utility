@@ -21,7 +21,8 @@ namespace Iswenzz.CoD4.Utility.Threads
             {
                 using (WebClient client = new WebClient())
                     ver = float.Parse(client.DownloadString("http://213.32.18.205:1337/cod4x_utility/version.txt"));
-            } catch { }
+            } 
+            catch { }
             await Task.Delay(1000);
 
             if (Profile.Version != ver)

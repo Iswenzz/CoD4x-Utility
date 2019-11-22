@@ -28,7 +28,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.ReadWrite(Profile.fx_enable, Profile.var_fx_enable);
                 b0.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_fx_enable = false;
@@ -45,7 +44,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.ReadWrite(Profile.r_specular, Profile.var_r_specular);
                 b1.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_r_specular = false;
@@ -65,7 +63,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.Write(Profile.fx, 4);
                 b2.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_r_fullbright = false;
@@ -91,7 +88,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.ReadWrite(Profile.r_drawDecals, Profile.var_r_drawDecals);
                 b4.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_r_drawDecals = false;
@@ -108,7 +104,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.ReadWrite(Profile.sm_enable, Profile.var_sm_enable);
                 b5.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_sm_enable = false;
@@ -125,7 +120,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.ReadWrite(Profile.r_detail, Profile.var_r_detail);
                 b6.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_r_detail = false;
@@ -142,7 +136,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.ReadWrite(Profile.r_normal, Profile.var_r_normal);
                 b7.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_r_normal = false;

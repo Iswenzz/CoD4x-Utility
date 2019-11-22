@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Utility>
+  <cg_drawFps Type="System.Boolean" Value="true" />
+  <cg_draw2D Type="System.Boolean" Value="true" />
+  <cg_laserForceOn Type="System.Boolean" Value="false" />
+  <hud_enable Type="System.Boolean" Value="true" />
+  <player_sprintCameraBob Type="System.Single" Value="0.5" />
+  <fx_enable Type="System.Boolean" Value="true" />
+  <r_fullbright Type="System.Boolean" Value="false" />
+  <r_drawDecals Type="System.Boolean" Value="true" />
+  <r_detail Type="System.Boolean" Value="true" />
+  <r_specular Type="System.Boolean" Value="true" />
+  <r_specularMap Type="System.Int32" Value="1" />
+  <sm_enable Type="System.Boolean" Value="false" />
+  <r_normal Type="System.Boolean" Value="true" />
+  <cg_gun_x Type="System.Single" Value="0" />
+  <cg_gun_y Type="System.Single" Value="0" />
+  <cg_gun_z Type="System.Single" Value="0" />
+  <cg_fov Type="System.Single" Value="80" />
+  <cg_fovScale Type="System.Single" Value="1" />
+  <r_filmUseTweaks Type="System.Boolean" Value="false" />
+  <r_filmTweakEnable Type="System.Boolean" Value="false" />
+  <r_filmTweakBrightness Type="System.Single" Value="0" />
+  <r_filmTweakContrast Type="System.Single" Value="1" />
+  <r_filmTweakDesaturation Type="System.Single" Value="1" />
+  <r_filmTweakLightTint Type="System.Single[]" Value="1 1 1" />
+  <r_filmTweakDarkTint Type="System.Single[]" Value="1 1 1" />
+</Utility>

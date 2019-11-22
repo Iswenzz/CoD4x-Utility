@@ -28,7 +28,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.ReadWrite(Profile.cg_drawFps, Profile.var_cg_drawFps);
                 b0.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_cg_drawFps = false;
@@ -45,7 +44,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.ReadWrite(Profile.cg_draw2D, Profile.var_cg_draw2D);
                 b1.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_cg_draw2D = false;
@@ -62,7 +60,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.ReadWrite(Profile.cg_laserForceOn, Profile.var_cg_laserForceOn);
                 b2.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_cg_laserForceOn = false;
@@ -79,7 +76,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.ReadWrite(Profile.hud_enable, Profile.var_hud_enable);
                 b3.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_hud_enable = false;
@@ -96,7 +92,6 @@ namespace Iswenzz.CoD4.Utility
                 CMD.ReadWrite(Profile.player_sprintCameraBob, Profile.var_player_sprintCameraBob);
                 b4.ToggleButton(true);
             }
-
             else
             {
                 Profile.var_player_sprintCameraBob = 0f;
