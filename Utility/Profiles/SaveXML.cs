@@ -21,7 +21,8 @@ namespace Iswenzz.CoD4.Utility.Profiles
                 if (obj_type.FullName.Contains("[]"))
                 {
                     Array obj_array = (Array)obj_v;
-                    xml.Root.Add(new XElement(cmd, new XAttribute("Type", obj_type), 
+                    if (obj_type.FullName.Contains("Single"))
+                        xml.Root.Add(new XElement(cmd, new XAttribute("Type", obj_type),
                         new XAttribute("Value", obj_array.GetValue(0) + " " + obj_array.GetValue(1) + " " + obj_array.GetValue(2))));
                 }
                 else

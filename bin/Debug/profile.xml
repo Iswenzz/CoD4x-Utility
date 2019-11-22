@@ -10,8 +10,8 @@
   <r_drawDecals Type="System.Boolean" Value="true" />
   <r_detail Type="System.Boolean" Value="true" />
   <r_specular Type="System.Boolean" Value="true" />
-  <r_specularMap Type="System.Int32" Value="1" />
-  <sm_enable Type="System.Boolean" Value="false" />
+  <r_specularMap Type="System.Int32" Value="0" />
+  <sm_enable Type="System.Boolean" Value="true" />
   <r_normal Type="System.Boolean" Value="true" />
   <cg_gun_x Type="System.Single" Value="0" />
   <cg_gun_y Type="System.Single" Value="0" />
