@@ -5,57 +5,20 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/iswenzz/cod4x-utility/badge)](https://www.codefactor.io/repository/github/iswenzz/cod4x-utility)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-The CoD4x Utility Tool allows you to modify player, graphical, viewmodel, and vision settings on any CoD4x 1.7 / 1.8 server.
+CoD4x Utility Tool allows you to modify player, graphical, viewmodel, and vision settings on any CoD4x 1.7 / 1.8 server.
 
-```
-1.21:
-  Save to .CFG
+![](https://i.imgur.com/fNOgG6L.jpg)
 
-1.2:
-Rewrote Source:
-  Better Performance
-  New Sliders
-  Improved XML Profile
+## Features
 
-1.1:
-Viewmodel Settings:
-	Restore Gun
-	Restore FOV
+* Draw FPS / 2D / HUD / FX
+* Fullbright / Decals / Details / Specular / Specular Mode / AA Shadows / Normals
+* Laser
+* Viewmodel X Y Z Position
+* FOV & FOV Scale
+* Camera Bob
+* Movie config + Export CFG
 
-1.0:
-Player Settings:
-    Draw FPS
-    Draw 2D
-    Laser
-    Stock HUD
-
-Graphical Settings:
-    Effects
-    Fullbright
-    Decals
-    Detail
-    Specular
-    Specular Mode
-    Shadow
-    Normal
-
-Viewmodel Settings:
-    Gun X
-    Gun Y
-    Gun Z
-    FOV
-    FOV Scale
-    Camera Bob
-
-FilmTweak Settings:
-    Brightness
-    Contrast
-    Desaturation
-    Light Tint
-    Dark Tint
-    Restore to Default
-```
-
-All settings listed above are saved in profile.xml
+All settings listed above are saved in ``profile.xml``
 
 Credits: Iswenzz
