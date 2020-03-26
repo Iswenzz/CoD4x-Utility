@@ -5,7 +5,9 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/iswenzz/cod4x-utility/badge)](https://www.codefactor.io/repository/github/iswenzz/cod4x-utility)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-CoD4x Utility Tool allows you to modify the player’s graphics, viewmodel, and vision settings on any CoD4x 1.7/1.8 server.
+The CoD4x Utility Tool allows you to modify a variety of in-game settings to modify graphical fidelity.
+Such things are included but not limited to: editing filmic tweaks, framerate counter, hud elements, 
+visual effects, viewmodel parameters, and much more. All features are listed further down in this document.
 
 ![](https://i.imgur.com/fNOgG6L.jpg)
 
