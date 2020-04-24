@@ -12,7 +12,6 @@ visual effects, viewmodel parameters, and much more. All features are listed fur
 ![](https://i.imgur.com/fNOgG6L.jpg)
 
 ## Features
-
 * Draw FPS / 2D / HUD / FX
 * Fullbright / Decals / Details / Specular / Specular Mode / AA Shadows / Normals
 * Laser
@@ -21,6 +20,15 @@ visual effects, viewmodel parameters, and much more. All features are listed fur
 * Camera Bob
 * Movie config + Export CFG
 
-All settings listed above are saved in ``profile.xml``
+All settings listed above are saved in ``profile.xml``.
 
-Credits: Iswenzz
+## Instructions
+In order to use this application, just download the archived file down below, and extract it to any destination. You can create a shortcut of the executable file and place it anywhere, and run it from said shortcut.
+
+## Building
+1. [Visual Studio](https://visualstudio.microsoft.com/)
+
+### [Download](https://github.com/Iswenzz/CoD4x-Utility/releases)
+
+## Contributors:
+***Note:*** If you would like to contribute to this repository, feel free to send a pull request, and I will review your code. Also feel free to post about any problems that may arise in the issues section of the repository.
